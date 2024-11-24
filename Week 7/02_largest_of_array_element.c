@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 int r(int*p,int n){
 	int i,j,t;
 	for(i=0;i<n-1;i++)
