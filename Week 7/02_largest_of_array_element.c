@@ -14,7 +14,7 @@ int main(){
 	int n,i,k;
 	printf("Enter array size");
 	scanf("%d",&n);
-	int a[n];
+	int*a=(int*)malloc(n*sizeof(int));
 	printf("Enter elements");
 	for(i=0;i<n;i++)
 	scanf("%d",&a[i]);
